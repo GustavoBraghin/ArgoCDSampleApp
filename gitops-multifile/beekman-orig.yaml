@@ -5,7 +5,7 @@
      app: bee
    name: beekman-change-reconciler
  spec:
-   replicas: 1
+   replicas: 2
    selector:
      matchLabels:
        app: bee
@@ -25,11 +25,11 @@
          name: beekman-1
          resources:
            limits:
-             cpu: 120m
-             memory: 120Mi
+             cpu: 11m
+             memory: 28Mi
            requests:
-             cpu: 2m
-             memory: 2Mi
+             cpu: 10m
+             memory: 10Mi
          terminationMessagePath: /dev/termination-log
          terminationMessagePolicy: File
        - env:
