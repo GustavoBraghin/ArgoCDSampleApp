@@ -6,7 +6,7 @@
      app: bee
    name: beekman-one-more
  spec:
-   replicas: 3
+   replicas: 50
    selector:
      matchLabels:
        app: bee
