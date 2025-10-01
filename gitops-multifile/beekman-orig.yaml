@@ -25,8 +25,8 @@
          name: beekman-1
          resources:
            limits:
-             cpu: 400m
-             memory: 400Mi
+             cpu: 900m
+             memory: 900Mi
            requests:
              cpu: 10m
              memory: 10Mi
